@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    font-family: Poppins, sans-serif;
+}
+
+main{
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-main);
+}
+
+main .card-top{
+    width: 430px;
+    height: 380px;
+    background-color: var(--top-card-color);
+    padding: 30px 40px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main .card-top .tipagem{
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    width: 64px;
+    font-weight: 500;
+}
+
+main .card-top .tittle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+main .card-top .tittle h1{
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+main .card-top img{
+    margin-top: 10px;
+}
+
+main .card-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+main .card-bottom .status h2{
+    border-bottom: 1px solid black;
+    width: 168px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+main .card-bottom .status p{
+    border-bottom: 1px solid var(--line-color);
+    padding: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+main .card-bottom .habilidades h2{
+    border-bottom: 1px solid black;
+    width: 168px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+main .card-bottom .habilidades p{
+    border-bottom: 1px solid var(--line-color);
+    padding: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+main nav{
+    margin-bottom: 600px;
+    margin-left: 20px;
+}
+
+main nav ul .list img{
+    width: 47.5px;
+    height: 51.01px;
+    border-radius: 50%;
+}
+
+main nav ul .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--list-bg-color);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+main nav ul .list:hover{
+    cursor: pointer;
+    background-color: var(--list-bg-color-hover);
+    padding: 12px;
+}
+
+main nav ul .list p{
+    color: white;
+    margin-right: 20px
+}
+
+main nav ul {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
