@@ -4,7 +4,7 @@
 </div>
 
 ## Sobre
-- Este projeto foi de grande importância para mim. Desde a minha infância, sou apaixonado por Pokémon, e, por isso, decidi criar este projeto inspirado no projeto do curso DevEmDobro. No entanto, ao contrário do projeto original, este foi desenvolvido inteiramente com HTML e CSS, com o objetivo de testar e aprimorar minhas habilidades nessas linguagens.
+- Este projeto foi de grande importância para mim. Desde a minha infância, sou apaixonado por Pokémon, e, por isso, decidi criar este projeto inspirado no projeto do curso DevEmDobro. No entanto, ao contrário do projeto original, este foi desenvolvido inteiramente com HTML e CSS, com o objetivo de testar e aprimorar minhas habilidades nas Linguagens de marcação e estilo.
 - Apesar das dúvidas e dificuldades, consegui alcançar um resultado final organizado e bem estruturado.
 
 ## Tecnologias Utilizadas 
